@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+.banner{
+    align-items: center;
+    background-color: rgb(248, 238, 216);
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.bannerheading{
+    color: rgb(68, 47, 58);
+    font-family: poppins;
+    font-size: 18px;
+   
+    font-weight: 500;
+}
+.learnMoreButton{
+    display: flex;
+    width: 195px;
+    height: 50px;
+    color: rgb(68, 47, 58);
+    background-color: rgb(247, 202, 93);
+    border-radius: 47px;
+    font-weight: 650;
+    font-size: 15px;
+    line-height: 22px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    cursor: pointer;
+    font-family: poppins;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease, color 0.3s ease;
+    border: none;
+}
+.learnMoreButton:hover {
+    background-color: rgba(203, 116, 16, 0.664);
+    color: rgb(37, 7, 65); 
+}
+
+.headercontainer{
+    
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    height: 785px;
+    width: auto;
+    position: relative;
+    background-image: url(headerimage.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.logo{
+    height: 97px;
+    width: 97px;
+    margin-left: 80px;
+    margin-top: 36px;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: baseline;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+
+
+
+}
+a{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 35px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid;
+    transition:color 0.3s ;
+
+}
+.headcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 150px;
+    left: 80px;
+    position: absolute;
+    z-index: 1;
+}
+.title{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: left;
+    max-width: 400px;
+    margin: 35px 0 5px 0;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    
+}
+.subtitle{
+    display: block;
+    margin:4px 0 25px 0;
+    font-size: 28px;
+    max-width: 400px;
+
+}
+.logotwo{
+    width: 90px;
+    height: 65px;
+    margin-top: 20px;
+
+
+}
